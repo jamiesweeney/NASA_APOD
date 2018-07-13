@@ -25,19 +25,19 @@ from dateutil.parser import parse as dateparse
 # Get args
 try:
     start_date = dateparse(sys.argv[1]) 
-except ValueError:
+except:
     print("Parse error - START_DATE is not correct format, defaulting to today.")
     start_date = datetime.datetime.now()
 
 try:
     end_date = dateparse(sys.argv[2]) 
-except ValueError:
+except:
     print("Parse error - END_DATE is not correct format, defaulting to today.")
     end_date = datetime.datetime.now()
 
 
 # Constants
-DIR_PATH = os.path.dirname(os.path.realpath(__file__))
+DIR_PATH = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 ENDPOINT = 'https://api.nasa.gov/planetary/apod'
 
 
