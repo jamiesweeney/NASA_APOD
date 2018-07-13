@@ -50,7 +50,7 @@ config = {
 
 # Base request parameters
 parameters = {
-    'api_key': 'DEMO_KEY',
+    'api_key': os.environ["NASA_API_KEY"],
     'hd': 'True',
     'date': None
 }
