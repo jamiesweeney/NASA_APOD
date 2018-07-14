@@ -57,6 +57,5 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE v3 - see the [LICE
 
 ## Acknowledgments
 
-* README adapted from [template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) by [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* README adapted from a [template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) by [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 * NASA images can be found [here](https://apod.nasa.gov/apod/archivepix.html)
-
